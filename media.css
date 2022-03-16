@@ -1,0 +1,36 @@
+
+@media screen and (max-width:900px){
+
+    body{
+        text-align: center;
+        margin: 0;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+   
+
+
+    img{
+        width: 400px;
+    }
+    main{
+        flex-direction: column;
+    }
+
+    aside{
+        align-items: center;
+        margin:0;
+    }
+
+   h1{
+       font-size: 30px;
+   }
+   p{
+        width: auto;
+       align-items: center;
+       font-size: 15px;
+   }
+}
