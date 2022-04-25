@@ -1,46 +1,46 @@
 
 @media screen and (max-width:900px){
 
-    body{
-        
-       margin:auto;
-    }
+*{
+    margin: 0;
+    padding:0;
+}
 
-    header{
-        flex-direction: column;
-    }
+   header {
+    text-align: center;
+    flex-direction: column;
+   }
 
-   
+   #menu{
+      margin: auto;
+   }
 
+   main{
+       flex-direction: column;
+       
+   }
 
-    img{
-        width: 400px;
-    }
-    main{
-        flex-direction: column;
-    }
+ h1{
+     margin: auto;
+     width: auto;
+     font-size: 24px;
 
-    
-    
+ }  
+p{
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+}
 
-   h1{
-        text-align: center;
-        color:gray;
-        font-size: 25px;
-        width: 380px;
-        margin: auto;
-    }
- 
-    button{
-        margin: auto;
-        margin-top: 10px;
-        width: 150px;
-        font-size: 15px;
-    }
+button{
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    font-size: 16px;
+}
 
-   p{
-       text-align: center;   
-       font-size: 15px;
-      margin: auto;  
-    }
+  img{
+      width:300px
+  }
+
 }
