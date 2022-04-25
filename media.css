@@ -2,8 +2,8 @@
 @media screen and (max-width:900px){
 
     body{
-        text-align: center;
-        margin: 0;
+        
+       margin:auto;
     }
 
     header{
@@ -20,17 +20,27 @@
         flex-direction: column;
     }
 
-    aside{
-        align-items: center;
-        margin:0;
-    }
+    
+    
 
    h1{
-       font-size: 30px;
-   }
+        text-align: center;
+        color:gray;
+        font-size: 25px;
+        width: 380px;
+        margin: auto;
+    }
+ 
+    button{
+        margin: auto;
+        margin-top: 10px;
+        width: 150px;
+        font-size: 15px;
+    }
+
    p{
-        width: auto;
-       align-items: center;
+       text-align: center;   
        font-size: 15px;
-   }
+      margin: auto;  
+    }
 }
